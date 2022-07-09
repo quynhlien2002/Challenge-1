@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
 }
+/* set the height and width in the pixel we want */
 
 body {
     background-color: #d9dcd6;
 }
+/* background of body part is white */
 
 #header {
     padding: 20px;
@@ -14,15 +16,18 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+/* set the space around the header in the top to be a specific font with a white color text and back ground color as blue */
 
 #header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* the word Hori and seon is in inline */
 
 #header h1 .seo {
     color: #d9dcd6;
 }
+/* change the color of the word seo */
 
 #header ul{
     padding-top: 15px;
@@ -31,20 +36,24 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* The list in the header have the Gill sans font and stay on the right side of the web page  */
 
 #header li {
     display: inline-block;
     margin-left: 25px;
 }
+/* the list items in the header are in the same line with a space in the left 25px */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* color of the text with link in the header  */
 
 p {
     font-size: 16px;
 }
+/* font size of all the paragraphs in the website  */
 
 .hero {
     height: 800px;
@@ -54,22 +63,26 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* show the big picture below the header */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
+/* the image in the search engine and social media will be in the left side */
 
 #float-right {
     float: right;
     margin-left: 25px;
 }
+/* the image in the online reputation will be in the right side */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* all the content in each box will be in the the inline block  */
 
 .benefits {
     margin-right: 20px;
@@ -81,22 +94,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* the benefits will stay in the right side of the web page with a blue back ground color */
 
 .benefit-style{
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* the color of the text in the benefit section is white  */
 
 .benefit-style h3{
     margin-bottom: 10px;
     text-align: center;
 }
+/* the header for the benefit section is align in the center with a 10px space in the bottom */
 
 .benefit-style img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* the image in the benefits section is in a block order with a width of 150px */
 
 .content-style {
     margin-bottom: 20px;
@@ -106,15 +123,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* this show the font of the content in the 3 big sections and divide it into each box section  */
 
 .content-style img {
     max-height: 200px;
 }
+/* the size of the image in the content section  */
 
- .content-style h2 {
+.content-style h2 {
      margin-bottom: 20px;
      font-size: 36px;
  }
+ /* set the font and the space in the bottom between the title and paragraph in the content section  */
 
 footer {
     padding: 30px;
@@ -122,7 +142,9 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* show where the place of the footer in the webpage */
 
 footer h2 {
     font-size: 20px;
 }
+/* change size of the footer */
